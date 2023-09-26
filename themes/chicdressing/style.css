@@ -1,0 +1,219 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+
+/* Ajout Zou */
+
+p, li, a {
+    font-family: 'Playfair Display';
+    font-size: large;
+    line-height: 2;
+    color: black;
+}
+
+.slider-categories a {
+    font-size: 22px;
+    text-transform: none !important;
+}
+
+.slider-title {
+    font-weight: bold !important;
+    letter-spacing: 7px !important;
+}
+
+.slider-content p {
+    line-height: 2;
+    color: yellow;
+    font-size: 17px;
+}
+
+.slider-read-more a {
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+
+.slider-date {
+    font-size: 18px !important;
+}
+
+div.post-categories {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+div.post-categories a {
+    font-size: 20px;
+    font-weight: bold !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+div.post-categories a:hover {
+    color: blue !important;
+    font-size: 22px;
+    font-weight: bold !important;
+}
+
+div.read-more a {
+    color: brown;
+    font-size: 15px;
+}
+
+div.read-more a:hover {
+    color: blue;
+    font-size: 15px;
+}
+
+h1.post-title a, h2.post-title a {
+    color: brown !important;
+    font-size: 30px;
+}
+
+.page-content h1 {
+    font-family: 'Kalam';
+    color: brown !important;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+}
+.widget-title h2, .textwidget h2 {
+    font-family: 'Kalam';
+    color: blue !important;
+    background-color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+span.post-date {
+    color: blueviolet !important;
+    font-size: 22px;
+}
+
+div.main-content.clear-fix.boxed-wrapper {
+    color: #000000 !important;
+    background-color: #FFFFFF !important;
+    font-size: 22px;
+    font-weight: bold !important;
+}
+
+div.rpwwt-post-categories {
+    color: black;
+    font-size: 22px;
+}
+
+#chic-products a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart  {
+    color: brown;
+    font-size: 20px;
+}
+
+#main-nav.clear-fix {
+	  font-weight: bold !important;
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+#main-menu li {
+	  background-color: #FFFFFF !important;
+	  color: green !important;
+}
+
+#main-menu li a {
+	  background-color: #FFFFFF !important;
+	  color: black;
+}
+
+#main-menu li a:hover {
+    color: green !important;
+	  font-weight: bolder !important;
+}
+
+.FaisonsConnaissance {
+    color: green !important;
+	  font-weight: bolder !important;
+	  background-color: #FFFFFF !important;
+}
+
+.reseauxSociaux {
+    color: blue !important;
+	  font-weight: bolder !important;
+	  background-color: #FFFFFF !important;
+}
+
+.woocommerce-result-count {
+    color: blue !important;
+	  font-weight: bolder !important;
+	  background-color: #FFFFFF !important;
+	  font-family: 'Playfair Display';
+    font-size: large;
+    line-height: 2;
+    color: black !important;
+}
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart  {
+    color: brown !important;
+    font-size: 20px !important;
+}
