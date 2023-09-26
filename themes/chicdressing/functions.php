@@ -37,3 +37,6 @@ function chicdressing_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'chicdressing_enqueue_styles' );
+
+
+// ceci est commentaire
